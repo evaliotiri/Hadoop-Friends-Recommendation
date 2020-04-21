@@ -5,7 +5,7 @@ Hadoop written in Java. The objective is to recommend new friends to given Faceb
 
 ## Friends of Users in Facebook
 
-More specifically, the usernames are Alice and John. The rest names are their current friends.  
+More specifically, the usernames are Alice and John. The rest names displayed in each row are their current friends.  
 ```
 Alice John,Leo,Mary,Paul,Rebecca,Steve,Veronica
 John Alice,Kevin,Leo,Mary,Rebecca,Steve,Veronica
