@@ -22,7 +22,6 @@ public class FriendsRecommendationReducer extends Reducer<Text, Text, Text, Text
         HashMap<String, Set<String>> userNamesFriendsHashMap = new HashMap<>();
 
         for (Text friendList : friendLists) {
-
             String[] friendsWithUserName = friendList.toString().split(":");
             String userName = friendsWithUserName[0];
             Set<String> friendsOfUserName = new HashSet<>(Arrays.asList(friendsWithUserName[1].split(",")));

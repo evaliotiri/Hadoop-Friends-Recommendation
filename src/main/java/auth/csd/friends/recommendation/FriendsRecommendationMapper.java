@@ -43,7 +43,6 @@ public class FriendsRecommendationMapper  extends Mapper<LongWritable, Text, Tex
             friendsOfUserName.append(":");
             friendsOfUserName.append(friends);
 
-
             LOGGER.info(String.format("The pair is %s - %s", userNamePairs, friendsOfUserName));
             LOGGER.info(String.format("The inverted pair is %s - %s", userNamePairsInverted, friendsOfUserName));
 
